@@ -1,0 +1,50 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../Sabo_Regular.otf) format('opentype');
+}
+@import url('https://fonts.googleapis.com/css?family=Cute+Font');
+
+body {
+    background-color: #4973ff;
+    font-family: myFirstFont;
+    color: rgb(255, 255, 255);
+}
+h1 {
+    font-size: 6em;
+    width: 70%;
+    margin-bottom: 4vh;
+}
+h2 {
+    width: 70vw;
+    font-size: 2.5em;
+}
+p {
+    font-family: 'Cute Font', cursive;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 10px;
+}
+.choice {
+    border: 2px solid;
+    width: 70vw;
+    color: rgb(235, 255, 51);
+}
+.choice:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 4px solid rgb(0, 0, 0);
+}
+#goback {
+    width: 80px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    font-size: 2em;
+    color: black;
+    border: 4px solid rgb(0, 0, 0);
+    background-color: rgb(75, 255, 59);
+}
+#goback:hover {
+    background-color: rgb(255, 174, 174);
+    color: white;
+}

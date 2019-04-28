@@ -1,0 +1,37 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../Sabo_Regular.otf) format('opentype');
+}
+body {
+    background-color: rgb(253, 0, 0);
+    font-family: myFirstFont
+}
+h1 {
+    margin-top: 2vh;
+    margin-bottom: -4vh;
+    font-size: 7em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+h2 {
+    font-family: 'Cute Font', cursive;
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10vh;
+}
+img {
+    margin-top: 1vw;
+}
+a {
+    text-decoration: none;
+    font-size: 2em;
+    color: rgb(248, 178, 178);
+    font-weight: bold;
+    border: 4px solid black;
+    padding: 15px;  
+    background-color: rgb(248, 79, 79);
+}
+a:hover { 
+    background-color: rgb(255, 166, 0);
+    color: rgb(255, 255, 255);
+  }

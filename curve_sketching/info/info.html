@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Step 1</title>
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font" rel="stylesheet">
+    <link rel="stylesheet" href="info.css">
+    <script src="info.js"></script>
+  </head>
+  <body>
+    <center>
+        <div id="content">
+            <h1>SELECT A FUNCTION TO GRAPH</h1>
+        </div>
+        <button id="equations" onclick="openequations()">FUNCTIONS</button>
+    </center>
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p onclick="equationselected('equation1')">F(x) = (3X^5)-(5X^3)</p>
+        <p onclick="equationselected('equation2')">F(x) = 4X / (X^2 + 1)</p>
+        <p onclick="equationselected('equation3')">F(X) = (X^3)−(6X^2)+(9X)+1</p>
+        <p onclick="equationselected('equation4')">F(x) = (X^2) / (X - 1)</p>
+        <p onclick="equationselected('equation5')">F(X) = X(5 − X)^(2/3)</p>
+      </div>
+    </div>
+  </body>
+</html>
